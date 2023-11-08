@@ -1,0 +1,38 @@
+# Thank you Eric Murphy for the original configuration file! :-D
+
+window:
+  padding:
+    x: 20
+    y: 20
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 0.25
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style:  Medium
+  bold:
+    family: JetBrainsMono Nerd Font
+    style:  Bold
+  italic:
+    family: JetBrainsMono Nerd Font
+    style:  MediumItalic
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: BoldItalic
+  size: 16
+
+colors:
+  primary:
+    background: "#1d2021"
+    foreground: "#ebdbb2"
+    
+selection:
+  save_to_clipboard: false

@@ -1,0 +1,67 @@
+* {
+        border: none;
+        border-radius: 2px;
+        font-family: "JetbrainsMono Nerd Font" ;
+        font-size: 14px;
+        min-height: 10px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+        background-color: #282828;
+    }
+
+ window {
+    opacity: 1;
+}
+
+    button {
+        all: unset;
+        background-color: #a4c8ff;
+        color: #d3d3d3;
+        border: none;
+        border-bottom: 8px solid #a4c8ff;
+        border-left: 8px solid #a4c8ff;
+        border-right: 8px solid #a4c8ff;
+        border-top: 8px solid #a4c8ff;
+        border-radius: 2px;
+    }
+
+    #clock {
+        background-color: #a4c8ff;
+        color: #282828;
+        font-family: JetBrainsMono Nerd Font, monospace;
+        font-weight: bold;
+        border: none;
+        border-bottom: 8px solid #a4c8ff;
+        border-left: 8px solid #a4c8ff;
+        border-right: 8px solid #a4c8ff;
+        border-top: 8px solid #a4c8ff;
+        border-radius: 2px;
+    }
+
+    #window {
+        background-color: #a4c8ff;
+        color: #282828;
+        font-family: JetBrainsMono Nerd Font, monospace;
+        font-weight: bold;
+        border: none;
+        border-bottom: 8px solid #a4c8ff;
+        border-left: 8px solid #a4c8ff;
+        border-right: 8px solid #a4c8ff;
+        border-top: 8px solid #a4c8ff;
+        border-radius: 2px;
+    }
+    
+    #custom-menu {
+        background-color: #a4c8ff;
+        color: #282828;
+        font-family: JetBrainsMono Nerd Font, monospace;
+        font-weight: bold;
+        border: none;
+        border-bottom: 8px solid #a4c8ff;
+        border-left: 8px solid #a4c8ff;
+        border-right: 8px solid #a4c8ff;
+        border-top: 8px solid #a4c8ff;
+        border-radius: 2px;
+    }

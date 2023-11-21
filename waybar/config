@@ -1,0 +1,23 @@
+{
+    "layer": "bottom",
+    "position": "bottom",
+    "height": 25,
+    "spacing": 5,
+    "modules-left": ["custom/menu"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["clock"],
+
+    "custom/menu": {
+"format": "apps",
+"tooltip": false,
+"on-click": "rofi -show drun",
+},
+
+"clock": {
+    "tooltip-format": "{:%H:%M}",
+    "tooltip": true,
+    "format-alt": "{:%B %d, %Y}",
+    "format": "{:%I:%M %p}"
+},
+
+}

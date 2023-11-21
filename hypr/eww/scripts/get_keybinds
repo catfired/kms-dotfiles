@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+cat_lines="$(cat ~/.config/hypr/hyprland.conf | grep 'bind = ' | sed 's/bind = //g' | sort)"
+
+for i in "${cat_lines[@]}"; do
+  echo "$i"\
+    | sed 's/$mainMod/MOD/g'\
+    | sed 's/MOD SHIFT/MOD + SHIFT/g'\
+    | sed 's/^, //g'\
+    | sed 's/, exec,/ .... [Execute] =>/g'\
+    | sed 's/, $//g'\
+    | sed 's/,$//g'
+done
